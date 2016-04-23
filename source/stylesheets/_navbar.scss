@@ -19,4 +19,11 @@
     float: left;
     text-align: left;
   }
+
+  a {
+      text-decoration: none;
+      &:hover {
+          color: #777;
+      }
+  }
 }

@@ -1,13 +1,13 @@
 @charset "utf-8";
 @import "footer";
+@import "links";
 @import "normalize";
 @import "navbar";
 
 body {
   background: #ECC561;
   background: #789;
-  text-align: center;
-  font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Roboto Slab", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 1em;
 }
 
@@ -15,11 +15,6 @@ body {
   padding-left: 2em;
   border-left: 4px solid #777;
   text-align: left;
-}
-
-.logo img {
-  height: 18.75em;
-  margin-top: 3em;
 }
 
 .cover img {
@@ -55,58 +50,41 @@ body {
   margin-top: 5%;
   background-color: white;
   color: #333;
-  font-size: 24px;
+  font-size: 20px;
   line-height: 1.8em;
   .content {
     padding: 4em;
   }
-  a {
-    color: #555;
-    border: 2px solid #555;
-    border-radius: 5px;
-    margin-right: .8em;
-  }
-
-}
-
-a.inline {
-  padding: 0;
-  border: 0;
-  text-decoration: underline;
-  margin-right: 0;
 }
 
 li {
   text-align: left;
 }
 
+h1, h2, h3, h4, h5, h6, .title, .navbar {
+    font-family: "Roboto", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+h3 {
+    font-size: 1.3em;
+}
+
+h2, h3, h4, h5, h6 {
+    text-align: left;
+    font-weight: 200;
+}
+
 h1 {
-  color: rgba(0,0,0,0.5);
-  font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-size: 1.8em;
-  font-weight: 400;
-  margin: 0;
+    text-align: left;
+    color: rgba(0,0,0,0.5);
+    font-size: 1.8em;
+    font-weight: 400;
+    margin: 0;
 }
 
 p {
   text-align: left;
   margin: 2em 0;
-  font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-size: 1.1em;
   font-weight: 300;
-}
-a {
-  border: 1px solid white;
-  border-radius: 3px;
-  padding: 0.75em 0.7em;
-  color: white;
-  text-decoration: none;
-  transition: color 0.1s linear;
-  &:hover {
-    background: rgba(0,0,0,0.2);
-    color: white;
-    transition: all 0.15s linear;
-  }
 }
 
 .welcome {
