@@ -15,14 +15,32 @@
   </head>
 
   <body class=container "<%= page_classes %>">
+    <%= google_analytics_universal_tag %>
     <div class="navbar">
       <span class="title">
         Site Reliability Engineering
       </span>
       <span class="pull-right">
-        <%= link_to "Why SRE?", "/sre", target: "_blank", class: "inline" %>
+        <%= link_to "Why SRE?", "/sre", class: "inline" %>
       </span>
     </div>
-    <%= yield %>
+    <div class="cover">
+      <%= image_tag "IBM_System_360_tape_drives.jpg" %>
+    </div>
+    <div class="welcome">
+        <div class="container">
+          <div class="page">
+            <!--<div class="fill">
+              <%= image_tag "IBM_System_360_tape_drives.jpg" %>
+            </div>-->
+            <div class="content">
+                <%= yield %>
+            </div>
+          </div>
+        </div>
+    </div>
+    <div class="footer">
+        <%= link_to "SRE on Github", "https://github.com/mikkergimenez/sre", class: "inline" %>
+    </div>
   </body>
 </html>

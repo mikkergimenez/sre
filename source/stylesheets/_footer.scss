@@ -1,0 +1,16 @@
+.footer {
+  font-size: 1em;
+  background: #333;
+  z-index: 10;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  position: fixed;
+  padding: .1em .5em;
+  color: #EEE;
+  font-weight: 100;
+  .title {
+    float: left;
+    text-align: left;
+  }
+}
