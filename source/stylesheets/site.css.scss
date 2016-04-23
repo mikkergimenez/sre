@@ -1,0 +1,133 @@
+@charset "utf-8";
+@import "normalize";
+@import "navbar";
+
+body {
+  background: #ECC561;
+  background: #789;
+  text-align: center;
+  font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 1em;
+}
+
+.blockquote {
+  padding-left: 2em;
+  border-left: 4px solid #777;
+  text-align: left;
+}
+
+.logo img {
+  height: 18.75em;
+  margin-top: 3em;
+}
+
+.cover img {
+  width: 120%;
+  position: fixed;
+  top: -10%;
+  left: 0;
+  z-index: 1;
+  -webkit-filter: blur(3px) grayscale(75%) opacity(50%);
+  filter: blur(3px) grayscale(75%) opacity(50%);
+}
+
+.fill img {
+  width: 100%;
+  position: relative;
+  top: 0;
+  left: 0;
+  z-index: 1;
+}
+
+.container {
+  width: 90%;
+  margin-left: 5%;
+  position: relative;
+}
+
+.page {
+  border: 1px solid #999;
+  border-radius: 5px;
+  position: absolute;
+  margin-left: 0;
+  z-index: 5;
+  margin-top: 5%;
+  background-color: white;
+  color: #333;
+  font-size: 24px;
+  line-height: 1.8em;
+  .content {
+    padding: 4em;
+  }
+  a {
+    color: #555;
+    border: 2px solid #555;
+    border-radius: 5px;
+    margin-right: .8em;
+  }
+
+}
+
+a.inline {
+  padding: 0;
+  border: 0;
+  text-decoration: underline;
+  margin-right: 0;
+}
+
+li {
+  text-align: left;
+}
+
+h1 {
+  color: rgba(0,0,0,0.5);
+  font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 1.8em;
+  font-weight: 400;
+  margin: 0;
+}
+
+p {
+  text-align: left;
+  margin: 2em 0;
+  font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 1.1em;
+  font-weight: 300;
+}
+a {
+  border: 1px solid white;
+  border-radius: 3px;
+  padding: 0.75em 0.7em;
+  color: white;
+  text-decoration: none;
+  transition: color 0.1s linear;
+  &:hover {
+    background: rgba(0,0,0,0.2);
+    color: white;
+    transition: all 0.15s linear;
+  }
+}
+
+.welcome {
+  -webkit-animation-name: welcome;
+  -webkit-animation-duration: .9s;
+}
+
+@-webkit-keyframes welcome {
+  from {
+    -webkit-transform: scale(0);
+    opacity: 0;
+  }
+  50% {
+   -webkit-transform: scale(0);
+   opacity: 0;
+  }
+  82.5% {
+    -webkit-transform: scale(1.03);
+    -webkit-animation-timing-function: ease-out;
+    opacity: 1;
+  }
+  to {
+    -webkit-transform: scale(1);
+  }
+}

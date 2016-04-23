@@ -1,0 +1,46 @@
+---
+title: Linux
+---
+
+<div class="container">
+  <div class="page">
+    <div class="logo">
+      <%= image_tag "middleman-logo.svg" %>
+    </div>
+    <div class="content">
+      <h1>Learn Development</h1>
+      <h3>A curated experience for learning about Development</h3>
+
+      <p>
+        In a broad way, the problem of learning about development is largely solved.  The following companies offer a progressive set of lessons and experiences for learning software development.
+      </p>
+      <ol>
+        <li><%= link_to "Treehouse", "http://www.teamtreehouse.com/", target: "_blank", class: "inline" %></li>
+        <li><%= link_to "Lynda", "http://www.lynda.com/", target: "_blank", class: "inline" %></li>
+        <li><%= link_to "Code Academy", "http://www.codecademy.com/", target: "_blank", class: "inline"%></li>
+        <li><%= link_to "Code School", "http://www.codeschool.com/", target: "_blank", class: "inline" %></li>
+      </ol>
+      <h3>SRE Development</h3>
+      <p>
+        Development from an SRE perspective can be a different beast.  On the one hand, our needs can be similar; especially starting out, you can go a long way without understanding the architecture of large software systems.  On the other hand, there can be high risk in the types of software we write, given that we often interact with production systems.
+      </p>
+
+      <p>
+        SRE programming falls into two categories.  <u>Systems Programming</u> and <u>Interface Programming</u>.
+      </p>
+      <h3>Systems Programming</h3>
+      <p>
+        Systems programming is software that may run on a system and directly impacts the production network, for instance, perhaps you write a proxy that sits in front of your website and copies certain traffic to be analyzed. This software often has to be extremely lightweight, as it runs alongside production applications.
+      </p>
+      <h3>Interface Programming</h3>
+      <p>
+        Interface or automation programming is to try and simplify provisioning, orcehstration, and maintenance tasks, that involve several or many manual steps.  For instance, the Amazon AWS User interface is meant to be extremely flexible, but that means when creating new resources or performing maintenance on existing resources, you can find yourself performing the same actions over and over again in accordance with the best practices of your organization.  Even though Amazon AWS already has a UI, you can put a simplified UI in front of it, to be used by developers or other individuals in your organization that don't have the same experience.
+      </p>
+      <p>
+        This wide variety of programming skills means that SRE's must be generalists.  We may have to understand web programming, systems programming and operations, but when we do web programming, we often don't have to understand it deep enough to make the best UI's or the most scalabale websites, we'll probably rarely have more than a few dozen users at any given time. (Though often this depends on scale)
+      </p>
+      <p>
+        Historically Python or C has been used by operations teams, but more recently, "Go" (golang), developed at Google has replaced Python; mainly because it is compiled language and thus much faster and less resource intensive as Python, and manages it's own memory which makes it much easier and faster to program than C.
+      </p>
+    </div>
+</div><!-- .welcome -->
