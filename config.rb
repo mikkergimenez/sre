@@ -21,6 +21,11 @@ page '/*.txt', layout: false
 # Easier bootstrap navbars
 # activate :bootstrap_navbar
 
+
+activate :google_analytics do |ga|
+  ga.tracking_id = 'UA-44241544-3' # Replace with your property ID.
+end
+
 # Reload the browser automatically whenever files change
 configure :development do
   activate :livereload

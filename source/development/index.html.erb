@@ -5,7 +5,7 @@ title: Linux
 <div class="container">
   <div class="page">
     <div class="logo">
-      <%= image_tag "middleman-logo.svg" %>
+      <%= image_tag "programming.jpg" %>
     </div>
     <div class="content">
       <h1>Learn Development</h1>
@@ -22,17 +22,17 @@ title: Linux
       </ol>
       <h3>SRE Development</h3>
       <p>
-        Development from an SRE perspective can be a different beast.  On the one hand, our needs can be similar; especially starting out, you can go a long way without understanding the architecture of large software systems.  On the other hand, there can be high risk in the types of software we write, given that we often interact with production systems.
+        Development from an SRE perspective can be a different beast.  On the one hand, our needs are similar; development is development; but there are risks when writing software that interacts with production systems.
       </p>
 
       <p>
-        SRE programming falls into two categories.  <u>Systems Programming</u> and <u>Interface Programming</u>.
+        SRE programming falls into two categories.  <%= link_to "Systems Programming", "#systems_programming", class: "inline" %> and <%= link_to "Interface Programming", "#interface_programming", class: "inline" %>.
       </p>
-      <h3>Systems Programming</h3>
+      <a name="systems_programming"><h3>Systems Programming</h3></a>
       <p>
         Systems programming is software that may run on a system and directly impacts the production network, for instance, perhaps you write a proxy that sits in front of your website and copies certain traffic to be analyzed. This software often has to be extremely lightweight, as it runs alongside production applications.
       </p>
-      <h3>Interface Programming</h3>
+      <a name="interface_programming"><h3>Interface Programming</h3></a>
       <p>
         Interface or automation programming is to try and simplify provisioning, orcehstration, and maintenance tasks, that involve several or many manual steps.  For instance, the Amazon AWS User interface is meant to be extremely flexible, but that means when creating new resources or performing maintenance on existing resources, you can find yourself performing the same actions over and over again in accordance with the best practices of your organization.  Even though Amazon AWS already has a UI, you can put a simplified UI in front of it, to be used by developers or other individuals in your organization that don't have the same experience.
       </p>
