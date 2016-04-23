@@ -11,8 +11,6 @@ GEM
     autoprefixer-rails (6.3.6)
       execjs
     backports (3.6.8)
-    bootstrap-navbar (2.2.4)
-      gem_config (~> 0.3)
     bootstrap-sass (3.3.6)
       autoprefixer-rails (>= 5.2.1)
       sass (>= 3.3.4)
@@ -51,7 +49,6 @@ GEM
     fastimage (1.9.0)
       addressable (~> 2.3.5)
     ffi (1.9.10)
-    gem_config (0.3.1)
     haml (4.0.7)
       tilt
     hamster (3.0.0)
@@ -148,7 +145,6 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  bootstrap-navbar
   bootstrap-sass
   jquery-middleman
   middleman (>= 4.0.0)

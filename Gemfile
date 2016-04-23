@@ -15,5 +15,4 @@ gem 'middleman-compass', '>= 4.0.0'
 gem 'middleman-google-analytics', '~> 2.1'
 
 gem "bootstrap-sass"
-gem "bootstrap-navbar"
 gem "jquery-middleman"

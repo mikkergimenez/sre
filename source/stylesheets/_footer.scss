@@ -1,5 +1,5 @@
 .footer {
-  font-size: 1em;
+  font-size: 2em;
   background: #333;
   z-index: 10;
   left: 0;
@@ -9,6 +9,13 @@
   padding: .1em .5em;
   color: #EEE;
   font-weight: 100;
+  text-align: center;
+  a {
+      color: #DDD;
+      &:hover {
+          color: #AAA;
+      }
+  }
   .title {
     float: left;
     text-align: left;
