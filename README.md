@@ -11,9 +11,9 @@ Open a PR!  Once your PR gets merged to Master, it will automatically be deploye
 <p>
   <h2>Second Level Skills</h2>
 
-  <%= link_to "Databases", "/databases", target: "_blank" %>
-  <%= link_to "SRE", "/sre", target: "_blank" %>
-  <%= link_to "Virtualization", "/virtualization", target: "_blank" %>
+  Databases
+  SRE
+  Virtualization
   - VMWare
   - AWS
 

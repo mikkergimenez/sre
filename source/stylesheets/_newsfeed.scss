@@ -23,6 +23,23 @@ body{
     padding:0 0 50px 30px;
     position:relative;
 }
+
+.history-tl-container ul.tl ul a li {
+    list-style: none;
+    margin:auto;
+    margin-left:40px;
+    min-height:50px;
+    /*background: rgba(255,255,0,0.1);*/
+    border-left:1px solid #86D6FF;
+    padding:0 0 50px 30px;
+    position:relative;
+}
+
+.history-tl-container ul.tl a li.category {
+    border-left: 0;
+    padding: 0 0 0 30px;
+}
+
 .history-tl-container ul.tl a:last-child li{ border-left:0;}
 .history-tl-container ul.tl a li::before{
     position: absolute;
