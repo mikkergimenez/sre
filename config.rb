@@ -23,6 +23,9 @@ activate :google_analytics do |ga|
   ga.tracking_id = 'UA-44241544-3' # Replace with your property ID.
 end
 
+activate :breadcrumbs
+activate :sprockets
+
 # Reload the browser automatically whenever files change
 configure :development do
   activate :livereload

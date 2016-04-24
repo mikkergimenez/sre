@@ -3,15 +3,14 @@ title: Linux Curriculum
 layout: plain
 ---
 
-<h1>A Linux Curriculum</h1>
-<h2>A curated experience for learning about Linux</h2>
+<h2>A Linux Curriculum</h2>
 
-<ol>
-    <li><a href="#what_is_linux" class="inline">What is Linux</a></li>
+
+<ol class="menu">
+    <li><a href="#what_is_linux" class="inline">What is Linux?</a></li>
     <li><a href="#choosing_a_distribution" class="inline">Choosing a Distribution</a></li>
     <li><a href="#installing_linux" class="inline">Installing Linux</a></li>
 </ol>
-
 <hr>
 
 <a name="what_is_linux" class="anchor"><h3>What is Linux?</h3></a>
@@ -31,7 +30,7 @@ layout: plain
     <h3>Choosing a Linux Distribution</h3>
 </a>
 <p class="doc">
-    If you're just starting out with Linux, don't fret about which Distribution to use.  You should probably just use Ubuntu, or whatever distro your friend that wants to get you into Linux uses.
+    If you're just starting out with Linux, don't fret about which distribution to use.  You should probably just use Ubuntu, or whatever distro your friend that wants to get you into Linux uses.
 </p>
 <p class="doc">
     Ubuntu has been the most popular Linux distro for a while now, which means it's well supported(lots of answers to your questions online in google or online forums) and it's easy to use and install, with minimal bugs.  You can find Ubuntu here:
@@ -48,12 +47,28 @@ layout: plain
 <p class="doc">
     <%= link_to "How to install Ubuntu on Virtualbox", "http://askubuntu.com/questions/142549/how-to-install-ubuntu-on-virtualbox", target: "_blank", class: "inline" %>
 </p>
+<p class="doc">
+    If all you've ever used is Ubuntu, you wouldn't be getting a total view of Linux, CentOS is an alternative distribution of LInux built on Redhat(instead of Debian)  Debian and Redhat do many of the basic Linux tasks in different ways.  They use different package managers and slightly different file layouts.  If you were to only have experience with one, you might feel a little lost the first time you tried to use the other(when apt-get did not work).  Fedora is a good end-user version of Redhat Linux, and CentOS is a production version one that is used by companies in datacenters.
 
 <hr>
-<a name="choosing_a_distribution" class="anchor">
+<a name="installing_linux" class="anchor">
     <h3>Installing Linux</h3>
-
 </a>
 <p class="doc">
-    Coming Soon
+    Installing Linux, especially these days is about as easy as installing windows or Mac OS X.  When you download and install any of the available Distro's they will come with an installation wizard to help guide you.  But let's say you wanted to go a bit deeper in understanding what exactly Linux is doing to your computer.  There are a few ways to do that.
+</p>
+
+<h4>Arch linux</h4>
+<p class="doc">
+    www.archlinux.org
+</p>
+
+<h4>Linux from Scratch</h4>
+<p>
+    Everyone should do this at least once.  Linux from Scratch isn't even an iso or piece of software that you download.  It's just a document, and that document details exactly how to set up a Linux box down to every last detail.  You'll be installing the kernel yourself, downloading and managing compilers, setting up mount points and manually creating many of the configuration files in /etc.
+</p>
+<p>
+    I would rarely recommend ever using a Linux from Scratch box, unless, for example you are trying to create an embedded version of Linux or are trying to create your own distro.
+
+    http://www.linuxfromscratch.org/
 </p>

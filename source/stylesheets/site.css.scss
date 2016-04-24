@@ -30,6 +30,8 @@ body.plain {
   text-align: left;
 }
 
+
+
 .cover img {
   width: 120%;
   position: fixed;
@@ -52,6 +54,10 @@ body.plain {
   position: relative;
 }
 
+ol.menu {
+    margin: 2em 0em 5em 0em;
+}
+
 .page {
 
   border: 1px solid #999;
@@ -67,6 +73,10 @@ body.plain {
   .content {
     padding: 4em;
   }
+}
+
+hr {
+    margin: 3em 0em;
 }
 
 hr.mini {
