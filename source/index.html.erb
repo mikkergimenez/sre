@@ -1,33 +1,54 @@
 ---
 title: Devopsed
+layout: plain
 ---
 
-<h1>Learn Site Reliability Engineering</h1>
 <h3>A curated experience for learning about systems operations</h3>
-
+<hr class="mini">
 <p>
-  I am often asked:
-</p>
-<p class="blockquote">
-  What should I learn to get better at operations?
-</p>
-<p>
-  What I think people are asking; when they ask this question, is which of the latest and greatest new technologies should they be using.  Something like Docker, or AWS.  And the answer is, you should pursue those skills;  You should follow what you're passionate about in this industry, because it's a long road and there is no reason not to enjoy it.
-</p>
-<p>
-  But every craft has it's fundamentals, and for Site Reliability Engineering they are:
+  All crafts has their fundamentals; For Site Reliability Engineering they are:
 </p>
     <p>
         <center>
-            <%= link_to "Linux", "/linux", class: "box" %>
-            <%= link_to "Development", "/development", class: "box" %>
-            <%= link_to "Networking", "/networking", class: "box" %>
+            <span class="col-xs-4">
+                <% link_to "/linux" do %>
+                    <div class="box">
+                        <h3>Linux</h3>
+                        Everything is built on Linux; most virtualization platforms, and troubleshooting docker involves understanding the linux containerization technologies below it.
+                    </div>
+                <% end %>
+            </span>
+
+            <span class="col-xs-4">
+                <% link_to "/development" do %>
+                    <div class="box">
+                        <h3>Development</h3>
+                        SRE's view operations as tasks to be automated.
+                        The better a programmer you are, the easier it will be to see the path to automation, and understand configuration management.
+                    </div>
+                <% end %>
+            </span>
+
+            <span class="col-xs-4">
+                <% link_to "/networking" do %>
+                    <div class="box ">
+                        <h3>Networking</h3>
+                        Networking draws these worlds together and of course none of these technologies operates independently.
+                    </div>
+                <% end %>
+            </span>
         </center>
     </p>
-<p>
-<p>
-    You'll never go wrong upleveling these skills.  Everything else is built off of them.  The better a programmer you are, the deeper you will understand configuration management.  Linux underlies most virtualization platforms, and half of troubleshooting docker is understanding the linux containerization technologies below it.  Networking draws these worlds together and of course none of these technologies operates independently.  They are each interwoven and your understanding of advanced techologies will depend on your understanding of these three.
-</p>
-<p>
+    <br /><br />
+    <p>
+        The mission of this website is to help separate the signal form the noise and provide a clear and progressive set of tutorials, guides, and blogs to learn the fundamentals of SRE.
+    </p>
+    <p>
 
-</p>
+    </p>
+
+<!--<p>
+    What should I learn to learn Operations?
+
+  What I think people are asking; when they ask this question, is which of the latest and greatest new technologies should they be using.  Something like Docker, or AWS.  And the answer is, you should pursue those skills;  You should follow what you're passionate about in this industry, because it's a long road and there is no reason not to enjoy it.
+</p>-->

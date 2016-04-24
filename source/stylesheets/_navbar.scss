@@ -1,7 +1,6 @@
 
 .pull-right {
   right: 1.5em;
-  position: absolute
 }
 
 .navbar {
@@ -27,4 +26,23 @@
           color: #777;
       }
   }
+}
+.content > h3 {
+    margin-top: 0;
+
+}
+.plain .navbar {
+    padding: 0;
+    margin-top: 2.5em;
+    margin-bottom: 0;
+    position: relative;
+
+    background: rgba(0,0,0,0);
+    color: #333;
+    a {
+        color: #777;
+        &:hover {
+            color: #333;
+        }
+    }
 }

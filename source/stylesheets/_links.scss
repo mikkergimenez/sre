@@ -6,11 +6,15 @@ a {
   margin-right: 0;
 }
 
-.page a.box {
-  padding: 0.75em 0.7em;
-  border: 2px solid #555;
-  border-radius: 5px;
-  margin-right: .8em;
+div.box {
+    padding: 0 0.7em .75em .7em;
+    min-height: 16em;
+    border: 2px solid #555;
+    float: left;
+    text-align: left;
+    &:hover {
+        background: rgba(0,0,0,.3);
+    }
 }
 
 a.anchor {

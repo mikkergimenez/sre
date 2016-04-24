@@ -5,14 +5,23 @@
 
 // Custom
 @import "footer";
+@import "images";
 @import "links";
 @import "navbar";
+@import "newsfeed";
 
 body {
-  background: #ECC561;
   background: #789;
-  font-family: "Roboto Slab", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Courier", "Roboto Slab", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 1em;
+}
+
+body.plain {
+    font-size: 16px;
+    background: #FFF;
+    .page {
+        border: 0
+    }
 }
 
 .blockquote {
@@ -44,6 +53,7 @@ body {
 }
 
 .page {
+
   border: 1px solid #999;
   border-radius: 5px;
   position: absolute;
@@ -52,15 +62,28 @@ body {
   margin-top: 5%;
   background-color: white;
   color: #333;
-  font-size: 20px;
+  font-size: 16px;
   line-height: 1.8em;
   .content {
     padding: 4em;
   }
 }
 
+hr.mini {
+    width: 8%;
+    text-align: left;
+    display: block;
+    margin: 2em 0em;
+    height: 1px;
+    background-color: #DDD;
+}
+
 li {
   text-align: left;
+}
+
+.plain .page {
+    margin-top: 0;
 }
 
 h1, h2, h3, h4, h5, h6, .title, .navbar {
