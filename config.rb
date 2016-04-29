@@ -25,6 +25,7 @@ end
 
 activate :breadcrumbs
 activate :sprockets
+activate :vcs_time
 
 # Reload the browser automatically whenever files change
 configure :development do
