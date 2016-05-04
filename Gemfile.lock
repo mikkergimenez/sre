@@ -39,6 +39,7 @@ GEM
       sass (>= 3.2, < 3.5)
     concurrent-ruby (1.0.1)
     contracts (0.13.0)
+    diff-lcs (1.2.5)
     em-websocket (0.5.1)
       eventmachine (>= 0.12.9)
       http_parser.rb (~> 0.6.0)
@@ -131,9 +132,23 @@ GEM
       rack
     rack-test (0.6.3)
       rack (>= 1.0)
+    rake (10.5.0)
     rb-fsevent (0.9.7)
     rb-inotify (0.9.7)
       ffi (>= 0.5.0)
+    rspec (3.4.0)
+      rspec-core (~> 3.4.0)
+      rspec-expectations (~> 3.4.0)
+      rspec-mocks (~> 3.4.0)
+    rspec-core (3.4.4)
+      rspec-support (~> 3.4.0)
+    rspec-expectations (3.4.0)
+      diff-lcs (>= 1.2.0, < 2.0)
+      rspec-support (~> 3.4.0)
+    rspec-mocks (3.4.1)
+      diff-lcs (>= 1.2.0, < 2.0)
+      rspec-support (~> 3.4.0)
+    rspec-support (3.4.1)
     sass (3.4.22)
     sprockets (3.6.0)
       concurrent-ruby (~> 1.0)
@@ -154,6 +169,7 @@ PLATFORMS
 
 DEPENDENCIES
   bootstrap-sass
+  capybara (~> 2.5)
   jquery-middleman
   middleman (>= 4.0.0)
   middleman-breadcrumbs (= 0.3.3)
@@ -161,6 +177,8 @@ DEPENDENCIES
   middleman-google-analytics (~> 2.1)
   middleman-livereload
   middleman-sprockets (~> 4.0.0.rc.1)
+  rake (~> 10.4)
+  rspec (~> 3.4)
   tzinfo-data
   wdm (~> 0.1.0)
 
