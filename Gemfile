@@ -15,7 +15,6 @@ gem 'middleman-compass', '>= 4.0.0'
 gem 'middleman-google-analytics', '~> 2.1'
 gem 'middleman-breadcrumbs', '0.3.3'
 gem 'middleman-sprockets', '~> 4.0.0.rc.1'
-gem 'middleman-vcs-time'
 
 gem "bootstrap-sass"
 gem "jquery-middleman"
