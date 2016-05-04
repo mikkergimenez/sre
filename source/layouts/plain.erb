@@ -33,6 +33,7 @@
             <!--<div class="fill">
               <%= image_tag "IBM_System_360_tape_drives.jpg" %>
             </div>-->
+            <%= breadcrumbs(current_page, separator: ' • ') %>
             <div class="content">
                 <%= yield %>
             </div>

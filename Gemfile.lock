@@ -172,7 +172,7 @@ DEPENDENCIES
   capybara (~> 2.5)
   jquery-middleman
   middleman (>= 4.0.0)
-  middleman-breadcrumbs (= 0.3.3)
+  middleman-breadcrumbs
   middleman-compass (>= 4.0.0)
   middleman-google-analytics (~> 2.1)
   middleman-livereload
