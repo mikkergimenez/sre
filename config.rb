@@ -24,6 +24,11 @@ activate :google_analytics do |ga|
 end
 
 activate :breadcrumbs
+
+activate :disqus do |d|
+  d.shortname = 'learnsre' # Replace with your Disqus shortname.
+end
+
 activate :sprockets
 
 # Reload the browser automatically whenever files change

@@ -20,7 +20,8 @@ gem 'middleman-livereload'
 gem 'middleman-compass', '>= 4.0.0'
 gem 'middleman-google-analytics', '~> 2.1'
 gem 'middleman-breadcrumbs'
+gem 'middleman-disqus'
 gem 'middleman-sprockets', '~> 4.0.0.rc.1'
 
-gem "bootstrap-sass"
-gem "jquery-middleman"
+gem 'bootstrap-sass'
+gem 'jquery-middleman'

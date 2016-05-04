@@ -34,9 +34,17 @@
               <%= image_tag "IBM_System_360_tape_drives.jpg" %>
             </div>-->
             <%= breadcrumbs(current_page, separator: ' • ') %>
+            <h2><%= current_page.data.title %></h2>
             <div class="content">
                 <%= yield %>
             </div>
+            <br />
+            <br />
+            <hr>
+            <% unless current_page.data.hide_disqus %>
+                <%= disqus %>
+                <%= disqus_count %>
+            <% end %>
         </div>
     </div>
     <div class="footer">
