@@ -69,3 +69,37 @@ layout: plain
 
     http://www.linuxfromscratch.org/
 </p>
+
+<h4>Logging in</h4>
+<p class="doc">
+	Once you are done installing and reboot your linux machine it will be time to log in.  You will probably have created a user to login with.  This user will have a set of permissions designed to protect you from accidentally causing too much damage to the system.  
+
+    But sometimes you need to get into the system level functions.  Whenever you are making low level changes to the system, perhaps configuring a new network or installing a new application.  You will need "root" access.  Root is the Linux/Unix term for administrator or power user.  
+
+    For clarity, "root" has two meanings in Linux as you'll see 
+</p>
+
+<h4>The Linux Command Line</h4>
+<p class="doc">
+    Sure, as a user of Linux on the desktop, you can use most modern distributions of Linux without touching the command line, just as you might a Windows or Mac.  Baut the power in Linux ( and modern Mac/OS X machines) is in being able to use the command line.  
+</p>
+
+<h5>The Command Prompt</h5>
+<p class="doc">
+    You could and will spend years; youre whole career even mastering the commands of the Linux operating system.  Using these commands together with "shell scripting"  -- an integrated lite programming language built into the operating system provides a powerful way to interact with both the local and remote systems.
+</p>
+<h5>One Function Per Command</h5>
+<p class="doc">
+    Linux/Unix has a philosophy of providing modular components.  This means that each command usually has one specific function it provides, and you can combine multiple commands to do more complex tasks.  This often involveds "piping" the output of one command into the input of another command.
+
+    For instance, the "grep" command is used to print the lines of a file that match (or don't match) a certain string.  "cat" can be used to print out the contents of a file, so you can take the output of the cat command and pipe it to the grep command:
+
+<code>
+cat cats.txt |grep tabby
+</code>
+</p>
+
+<h4>The Linux File System</h4>
+<p class="doc">
+	It all starts with root (/).
+</p>
